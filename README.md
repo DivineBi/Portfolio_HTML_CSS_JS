@@ -35,7 +35,7 @@ Portfolio_HTML_CSS_JS/
 
 ## 🌐 GitHub Pages
 To view the live site, visit:  
-`https://divinebi.github.io/Portfolio_HTML_CSS_JS/`
+[https://divinebi.github.io/Portfolio_HTML_CSS_JS/](https://divinebi.github.io/Portfolio_HTML_CSS_JS/)
 
 ## 📬 Contact
 Feel free to reach out via the contact section on the site!
