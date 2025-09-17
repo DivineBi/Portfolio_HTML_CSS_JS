@@ -1,4 +1,137 @@
 body {
-    background-color: #d7d7d7;
-    color: black;
+    background-color: #f0f0f0;
+    color: #faf0e6;
+}
+.container-fluid {
+    background-color: #faf0e6;
+    color: #4e1609;
+    max-width: 95%;         
+    margin-left: auto;
+    margin-right: auto;          
+    padding: 20px;             /* espace intérieur */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* ombre pour effet superposé */
+    border-radius: 8px;        /* coins arrondis pour adoucir */
+}
+
+#Divine p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+
+  /* Richer gradient for better contrast on #faf0e6 */
+  background: linear-gradient(120deg, #5a189a, #c1121f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Slight shadow to lift text off the background */
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+
+  /* Fade-in animation */
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 1s ease forwards 0.3s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.projet {
+    padding: 10px;
+    border-radius: 15px;
+    background: #115e9c; /* translucent */
+    backdrop-filter: blur(10px); /* glass blur */
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#Projects img {
+    border-radius: 5%;
+}
+#Projects h3 {
+    padding: 10px;
+}
+
+
+.skill {
+  padding: 10px;
+  border-radius: 15px;
+  background: #648c11; /* translucent */
+  backdrop-filter: blur(10px); /* glass blur */
+  -webkit-backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.job {
+  padding: 10px;
+  border-radius: 15px;
+  background: #996515; /* translucent */
+  backdrop-filter: blur(10px); /* glass blur */
+  -webkit-backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+
+.school {
+    
+  padding: 10px;
+  border-radius: 15px;
+  background: #704241; /* translucent */
+  backdrop-filter: blur(10px); /* glass blur */
+  -webkit-backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.cdetail {
+    padding: 10px;;
+}
+
+
+
+.versailles-glass {
+  display: inline-block;
+  border-radius: 5%;
+  background: rgba(255, 255, 255, 0.15); /* translucent white */
+  backdrop-filter: blur(10px);           /* frosted glass blur */
+  -webkit-backdrop-filter: blur(10px);   /* Safari support */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* soft shadow for depth */
+  overflow: hidden; /* ensures image corners match container radius */
+}
+
+.versailles-glass img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: none;
+
+  /* your fade mask */
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+}
+
+footer {
+    text-align: center;;
 }

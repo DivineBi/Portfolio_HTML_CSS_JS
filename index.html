@@ -8,93 +8,154 @@
         <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
 
         <!-- CSS Stylesheet -->
-         <link rel="Stylesheet" nref="css/main.css">
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">         
+         <link rel="stylesheet" href="css/main.css">
 
          <title>Portfolio Project</title>
     </head>
-
+    <div class="container-fluid">
     <body>
-        <h3>Portfolio Project</h3>
-        <div id="Divine">
-            <h1>Divine</h1>
-            <h3>Full Stack Developer, DevOps</h3>
+       
+        
+        
+        <div class="container-md mb-5" id="Divine">
+            <div class="d-flex flex-column align-items-center text-center">
+                <h1 class="m-0">Divine</h1>
+                <h3 class="m-0">Full Stack Developer, DevOps</h3>
+            </div>
             <p>I'm a passionate full stack developer based in Paris region, driven by curiosity, creativity, and a love for building things that matter. Whether it's crafting intuitive user interfaces, solving complex backend challenges, or turning ideas into elegant digital experiences, I thrive at the intersection of logic and imagination.
 With a strong foundation in  JavaScript, Python, Java, Figma, SQL, I enjoy working on projects that challenge me to grow and collaborate. I believe in clean code, thoughtful design, and meaningful impact.
 This portfolio showcases some of my favorite projects, experiments, and collaborations. Feel free to explore, and don’t hesitate to reach out.
             </p>
         </div> 
-        <div id="Projects">
+        <div class="container-md mb-5" id="Projects">
             <h2>Projects</h2>
-            <div class="project">
-                <img src="https://via.placeholder.com/405x405" alt="placeholder Image">
-                <h3>Online Plant Shop</h3>
-                <p>Built with React and Redux Toolkit, this application demonstrates modern front-end development practices.</p>
-            </div>
-            <div class="project">
-                <img src="https://via.placeholder.com/405x405" alt="placeholder Image">
-                <h3>Application Kafka</h3>
-                <p>Spring Boot application using Kafka to process exchange rates in real time, Elasticsearch to store data, and Kibana.</p>
-            </div>
-            <div class="project">
-                <img src="https://via.placeholder.com/405x405" alt="placeholder Image">
-                <h3>Pipeline Big Data temps réel</h3>
-                <p>Used Sklearn, LightGBM model, Python loop, Matplotlib and Streamlit</p>
-            </div>
+                <div class="row">
+                    <div class="col me-3 project">
+                        <img src="img/e-plantShopping.jpg" alt="Online Plant Shop" width="405" height="405">
+                        <h3>Online Plant Shop</h3>
+                        <p>Built with React and Redux Toolkit, this application demonstrates modern front-end development practices.</p>
+                    </div>
+                    <div class="col me-3 project">
+                        <img src="img/kafka_elk.jpg" alt="Kafka" width="405" height="405">
+                        <h3>Application Kafka</h3>
+                        <p>Spring Boot application using Kafka to process exchange rates in real time, Elasticsearch to store data, and Kibana.</p>
+                    </div>
+                    <div class="col project">
+                        <img src="img/BigdataML.jpg" alt="Big Data ML" width="405" height="405">
+                        <h3>Pipeline Big Data temps réel</h3>
+                        <p>Used Sklearn, LightGBM model, Python loop, Matplotlib and Streamlit</p>
+                    </div>
+                </div>    
         </div> 
-        <div id="Skills">
+        <div class="container-md mb-5" id="Skills">
             <h2>Skill Summary</h2>
-            <h3>Front-end</h3>
-            <p>React, Angular, .NET</p>
-            <h3>Back-end</h3>
-            <p>Node.js, Java, Python, C#, PHP</p>
-            <h3>Other</h3>
-            <p>Git, Agile, Docker, ML, Kafka, SQL, MongoDB, DevOps tools.</p>
+            <div class="row">
+                <div class="col me-3 skill">
+                    <h3>Front-end</h3>
+                    <p>React, Angular, .NET</p>
+                </div>
+                <div class="col me-3 skill">
+                    <h3>Back-end</h3>
+                    <p>Node.js, Java, Python, C#, PHP</p>
+                </div>
+                <div class="col skill">
+                    <h3>Infrastructure and tools</h3>
+                    <p>Git, Agile, Docker, ML, Kafka, SQL, MongoDB, DevOps tools.</p>
+                </div>
+            </div>
         </div>
-        <div id="Career">
+        <div class="container-md mb-5" id="Career">
             <h2>Career Highliths</h2>
-            <div class="job">
-                <img src="https://via.placeholder.com/624.5x341" alt="placeholder Image">
-                <h3>Web  Integrator</h3>
-                <p>Content management, product SEO, image retouching, and CMS proficiency.</p>
-            </div>
-            <div class="job">
-                <img src="https://via.placeholder.com/624.5x341" alt="placeholder Image">
-                <h3>DevOps Admin</h3>
-                <p>Technologies used: Azure DevOps, Git, Power BI, Visual Studio Code, and PowerShell</p>
+            <div class="row">
+                <div class="col me-3 job">
+                    <img src="img/funelior.jpg" alt="Funelior" width="624.5" height="341">
+                    <h3>Web  Integrator</h3>
+                    <p>Content management, product SEO, image retouching, and CMS proficiency.</p>
+                </div>
+                <div class="col job">
+                    <img src="img/lvmh.jpg" alt="Lvmh" width="624.5" height="341">
+                    <h3>DevOps Admin</h3>
+                    <p>Technologies used: Azure DevOps, Git, Power BI, Visual Studio Code, and PowerShell</p>
+                </div>
             </div>
         </div>
-        <div id="Education">
+        <div class="container-md mb-5" id="Education">
             <h2>Education</h2>
-            <div class="school">
-                <h3>Ensitech</h3>
-                <img src="https://via.placeholder.com/100x39" alt="placeholder Image">
-                <h4>Full Stack</h4>                
-                <p>Development</p>
-            </div>
-            <div class="school">
-                <h3>Greta</h3>
-                <img src="https://via.placeholder.com/100x39" alt="placeholder Image">
-                <h4>DevOps</h4>                
-                <p>System Admin</p>
-            </div>
-            <div class="school">
+            <div class="row">
+                <div class="col me-3 school">
+                    <h3>Ensitech</h3>
+                    <div class="row">
+                        <div class="col-sm">
+                            <img src="img/ensitech.jpg" alt="Ensitech" width="100" height="39">
+                        </div>
+                        <div class="col-sm">
+                            <h4>Full Stack</h4>                
+                            <p>Development</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col me-3 school">
+                    <h3>Greta</h3>
+                    <div class="row">
+                        <div class="col-sm">
+                            <img src="img/greta.jpg" alt="Greta" width="100" height="39">
+                        </div>
+                        <div class="col-sm">
+                            <h4>DevOps</h4>                
+                            <p>System Admin</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col school">
                 <h3>CESI</h3>
-                <img src="https://via.placeholder.com/100x39" alt="placeholder Image">
-                <h4>IT</h4>                
-                <p>Support & Maintenance</p>
+                    <div class="row">
+                        <div class="col-sm">
+                            <img src="img/cesi.jpg" alt="CESI" width="100" height="39">
+                        </div>
+                        <div class="col-sm">
+                            <h4>IT</h4>                
+                            <p>Support & Maintenance</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="Contact">
+        <div class="container-md mb-5" id="Contact">
             <h2>Contact</h2>
-            <img src="https://via.placeholder.com/40x40" alt="placeholder Image">
-            <img src="https://via.placeholder.com/40x40" alt="placeholder Image">
-            <img src="https://via.placeholder.com/1280x853" alt="placeholder Image">
+            <div class="row mb-5">
+                <div class="col-auto cdetail">
+                    <a href="https://github.com/DivineBi">
+                        <img src="img/linkedin.png" alt="LinkedIn" width="25" height="25">
+                    </a>
+                </div>
+                <div class="col-auto cdetail">
+                    <a href="https://github.com/DivineBi">
+                        <img src="img/github.jpg" alt="GitHub" width="25" height="25">
+                    </a>
+                </div>
+                <div class="col-auto cdetail">
+                    <a href="https://github.com/DivineBi">
+                        <img src="img/youtube.png" alt="youtube" width="25" height="25">
+                    </a>
+                </div>
+            </div>
+            <div class="row versailles">
+                <div class="versailles-glass">
+                <img src="img/versailles.jpg" alt="versailles" width="1400" height="900">
+                </div>
+            </div>
         </div>
+        <!-- bootstrap JS before closing body -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+       
     </body>
     <footer>
-        <p class="copyright-text">© Copyright 2025 ______</p>
+         
+        <p class="copyright-text">Portfolio Project © Copyright 2025 ______</p>
     </footer>
-
+    </div> 
+    
     <!-- code -->
      <script src="js/main.js"></script>
 </html>
