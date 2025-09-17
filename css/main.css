@@ -42,6 +42,20 @@ body {
   }
 }
 
+.typing-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background: #5a189a;
+  vertical-align: middle;
+  animation: blink 0.7s steps(1) infinite;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
 
 .projet {
     padding: 10px;
